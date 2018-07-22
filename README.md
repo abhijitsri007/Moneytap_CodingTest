@@ -1,6 +1,6 @@
 # Book Search Demo
 
-Android app that leverages the [OpenLibrary API](https://openlibrary.org/developers/api) to search books and display cover images. It also allows you to recommend books to friends. See the [Book Search Tutorial](http://guides.codepath.com/android/Book-Search-Tutorial) on our cliffnotes for a step-by-step tutorial.
+Android app that leverages the [OpenLibrary API](https://www.mediawiki.org/wiki/API:Page_info_in_search_results) to search books and display cover images. It also allows you to recommend books to friends.
 
 The app is composed of two screens. The first screen displays a list of books, in which, each book is described by its title, author and cover photo. After a user selects a book from the list, a second screen appears displaying additional details about the book, including the publisher and no. of pages.
 
@@ -16,7 +16,7 @@ The app is composed of two screens. The first screen displays a list of books, i
 
 The app does the following:
 
-1. Search a list of books using the [OpenLibrary Search API](https://openlibrary.org/dev/docs/api/search)
+1. Search a list of books using the [OpenLibrary Search API](https://www.mediawiki.org/wiki/API:Page_info_in_search_results)
 2. Display the list of books with their cover images and details
 3. Replace ActionBar with Toolbar
 4. Use SearchView to search for books with a title
@@ -31,8 +31,6 @@ To achieve this, there are five different components in this app:
 3. `BookAdapter` - Responsible for mapping each `Book` to a particular view layout
 4. `BookListActivity` - Responsible for fetching and deserializing the data, configuring the adapter and providing a search interface
 5. `BookDetailActivity` - Responsible for providing book detail view and share intent.
-
-See the [Book Search Tutorial](http://guides.codepath.com/android/Book-Search-Tutorial) on our cliffnotes for a step-by-step tutorial.
 
 ## Libraries
 
