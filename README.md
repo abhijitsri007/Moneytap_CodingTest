@@ -1,4 +1,4 @@
-# Book Search Demo
+# Moneytap Book Search Demo (Abhijit Kumar Srivastava)
 
 Android app that leverages the [OpenLibrary API](https://www.mediawiki.org/wiki/API:Page_info_in_search_results) to search books and display cover images. It also allows you to recommend books to friends.
 
